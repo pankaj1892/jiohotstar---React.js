@@ -4,7 +4,7 @@
     "title": "The Legend of Hanuman",
     "language": "Hindi, Tamil, Telugu, Marathi, Bengali, Malayalam, Kannada",
     "description": "An animated series depicting the epic tale of Hanuman, from his childhood to his pivotal role in the Ramayana.",
-    "image": "https://image.jiocinema.com/prod_c/0/0/61/39/00016139/assets/poster/2024/3/15/medium/the_legend_of_hanuman_s03_medium.jpg",
+    "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/2077/1738196502077-v",
     "releaseDate": "2021-01-29"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Mahabharat",
     "language": "Hindi",
     "description": "A contemporary retelling of the great Indian epic Mahabharata, focusing on the conflict between the Pandavas and the Kauravas.",
-    "image": "https://image.jiocinema.com/prod_c/0/0/34/47/00003447/assets/poster/2023/5/11/medium/mahabharat_medium.jpg",
+    "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3714/1740560233714-v",
     "releaseDate": "2013-09-16"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Sarabhai V/S Sarabhai",
     "language": "Hindi",
     "description": "A classic comedy series that hilariously portrays the cultural clashes and humorous dynamics between a sophisticated South Delhi family and their middle-class daughter-in-law.",
-    "image": "https://image.jiocinema.com/prod_c/0/0/34/54/00003454/assets/poster/2023/5/11/medium/sarabhai_vs_sarabhai_medium.jpg",
+    "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1666/1732286581666-v",
     "releaseDate": "2004-11-05"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Special Ops",
     "language": "Hindi",
     "description": "A gripping action thriller series following Himmat Singh of RAW as he connects a series of terror attacks and embarks on a multi-year manhunt for the mastermind.",
-    "image": "https://image.jiocinema.com/prod_c/0/0/34/60/00003460/assets/poster/2023/5/11/medium/special_ops_medium.jpg",
+    "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/8425/1735201218425-v",
     "releaseDate": "2020-03-17"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Criminal Justice",
     "language": "Hindi",
     "description": "An engaging crime thriller anthology series where each season follows a unique criminal case and the journey through the legal system.",
-    "image": "https://image.jiocinema.com/prod_c/0/0/34/61/00003461/assets/poster/2023/5/11/medium/criminal_justice_medium.jpg",
+    "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1372/1743103301372-v",
     "releaseDate": "2019-04-05"
   },
   {
@@ -44,7 +44,15 @@
     "title": "The Freelancer",
     "language": "Hindi",
     "description": "A high-stakes action thriller series about a former mercenary who takes on a perilous mission to rescue a young woman held captive in a war-torn region.",
-    "image": "https://image.jiocinema.com/prod_c/0/0/68/07/00016807/assets/poster/2023/9/1/medium/the_freelancer_medium.jpg",
+    "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/8211/1730828908211-v",
+    "releaseDate": "2023-09-01"
+  },
+  {
+    "id": "TF1",
+    "title": "The Freelancer",
+    "language": "Hindi",
+    "description": "A high-stakes action thriller series about a former mercenary who takes on a perilous mission to rescue a young woman held captive in a war-torn region.",
+    "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4405/1744464634405-v",
     "releaseDate": "2023-09-01"
   }
 ]

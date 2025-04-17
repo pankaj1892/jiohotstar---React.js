@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "Peppa Pig",
+      "language": "English",
+      "description": "Peppa Pig and her family go on fun adventures while learning about friendship and everyday life.",
+      "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/725/1735213010725-v"
+    },
+    {
+      "id": 2,
+      "title": "Dora the Explorer",
+      "language": "English",
+      "description": "A young girl named Dora goes on quests with her monkey Boots, solving puzzles along the way.",
+      "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3175/1743592563175-v"
+    },
+    {
+      "id": 3,
+      "title": "Motu Patlu",
+      "language": "Hindi",
+      "description": "Comedy adventures of Motlu and Patlu in the town of Furfuri Nagar.",
+      "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/527/1737971710527-v"
+    },
+    {
+      "id": 4,
+      "title": "Doraemon",
+      "language": "Hindi",
+      "description": "Doraemon is a fictional character and the title character of the manga and anime eponymous series of the same name created by Fujiko Fujio. Doraemon is a male robotic cat that travels back in time from the 22nd century to aid a preteen boy named Nobita Nobi. ",
+      "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/227/1715414310227-v"
+    },
+    {
+      "id": 5,
+      "title": "Tom and Jerry",
+      "language": "English",
+      "description": "Classic cat and mouse chases between Tom the cat and Jerry the clever mouse.",
+      "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3577/1734433893577-v"
+    },
+    {
+      "id": 6,
+      "title": "Shin Chan",
+      "language": "Japanese",
+      "description": "The mischievous 5-year-old Shin Chan creates chaos with his hilarious antics.",
+      "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4517/1715415404517-v"
+    },
+    {
+      "id": 7,
+      "title": "Paw Patrol",
+      "language": "English",
+      "description": "A team of rescue dogs led by a boy named Ryder tackle high-stakes missions.",
+      "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4336/1734421114336-v"
+    }
+    ]  

@@ -1,6 +1,7 @@
 import React from 'react'
 import ghecard from "./GHE.json";
 import movcard from "./Search.json";
+import kidsCard from "./KidsShows.json";
 
 const Tv = () => {
   return (
@@ -33,7 +34,7 @@ const Tv = () => {
       {/* Title & Cards - Latest Releases */}
       <div className="title-card">
         <div className="title-left">
-          <h2>Latest Releases</h2>
+          <h2>Popular Shows</h2>
         </div>
         <div className="title-right">
           <h3 className="la-re">View All</h3>
@@ -54,10 +55,36 @@ const Tv = () => {
         ))}
       </div>
 
+      {/* Title & Cards - kids shows */}
+
+      <div className="title-card">
+        <div className="title-left">
+          <h2>kids shows</h2>
+        </div>
+        <div className="title-right">
+          <h3 className="gl-Eng-Hits">View All</h3>
+        </div>
+      </div>
+
+      <div className="card-flex">
+        {kidsCard.map((card) => (
+          <div className="card" key={card.id}>
+            {card.link ? (
+              <a href={card.link}>
+                <img src={card.image} alt={`Card ${card.id}`} />
+              </a>
+            ) : (
+              <img src={card.image} alt={`Card ${card.id}`} />
+            )}
+          </div>
+        ))}
+      </div>
+
+
       {/* Title & Cards - Global English Hits */}
       <div className="title-card">
         <div className="title-left">
-          <h2>Global English Hits</h2>
+          <h2>kids shows</h2>
         </div>
         <div className="title-right">
           <h3 className="gl-Eng-Hits">View All</h3>

@@ -64,7 +64,8 @@ body {
 .hero-section {
   position: relative;
   z-index: 0;
-  height: 750px;
+  height: 700px;
+  width: 1600px;
   background-size: 100%;
   background-image: url("https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/8211/1741544298211-i");
 
@@ -92,6 +93,7 @@ body {
   display: flex;
 }
 .card img {
+  zoom: 90%;
   height: 280px;
   width: 205px;
   margin: 10px;
