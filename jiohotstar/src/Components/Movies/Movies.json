@@ -1,0 +1,67 @@
+[
+  {
+    
+    "id": 1,
+    "title": "Avengers: Endgame",
+    "language": "English",
+    "description": "The Avengers unite for one final stand against Thanos to restore balance to the universe.",
+    "image": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+    "releaseDate": "2019-04-26",
+    "link": "https://www.hotstar.com/in/movies/avengers-endgame/1260013556"
+  },
+  {
+    "id": 2,
+    "title": "Frozen II",
+    "language": "English",
+    "description": "Elsa and Anna set out on a journey to discover the origin of Elsa's powers and save their kingdom.",
+    "image": "https://image.tmdb.org/t/p/w500/pjeMs3yqRmFL3giJy4PMXWZTTPa.jpg",
+    "releaseDate": "2019-11-22",
+    "link": "https://www.hotstar.com/in/movies/frozen-ii/1260022117"
+  },
+ 
+  {
+    "id": 3,
+    "title": "Black Panther",
+    "language": "English",
+    "description": "T'Challa returns home to Wakanda to take his rightful place as king and faces a powerful enemy.",
+    "image": "https://image.tmdb.org/t/p/w500/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
+    "releaseDate": "2018-02-16",
+    "link": "https://www.hotstar.com/in/movies/black-panther/1660010678"
+  },
+  {
+    "id": 4,
+    "title": "Turning Red",
+    "language": "English",
+    "description": "A 13-year-old girl transforms into a giant red panda when emotions run high.",
+    "image": "https://image.tmdb.org/t/p/w500/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg",
+    "releaseDate": "2022-03-11",
+    "link": "https://www.hotstar.com/in/movies/turning-red/1260083291"
+  },
+  {
+    "id": 5,
+    "title": "Raya and the Last Dragon",
+    "language": "English",
+    "description": "A warrior named Raya sets out to find the last dragon and restore peace to her land.",
+    "image": "https://image.tmdb.org/t/p/w500/lPsD10PP4rgUGiGR4CCXA6iY0QQ.jpg",
+    "releaseDate": "2021-03-05",
+    "link": "https://www.hotstar.com/in/movies/raya-and-the-last-dragon/1260058129"
+  },
+  {
+    "id": 6,
+    "title": "Luca",
+    "language": "English",
+    "description": "Two sea monsters explore life above the water in a seaside town on the Italian Riviera.",
+    "image": "https://image.tmdb.org/t/p/w500/jTswp6KyDYKtvC52GbHagrZbGvD.jpg",
+    "releaseDate": "2021-06-18",
+    "link": "https://www.hotstar.com/in/movies/luca/1260063731"
+  },
+  {
+    "id": 7,
+    "title": "Captain Marvel",
+    "language": "English",
+    "description": "Carol Danvers becomes one of the universe’s most powerful heroes during a galactic war.",
+    "image": "https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+    "releaseDate": "2019-03-08",
+    "link": "https://www.hotstar.com/in/movies/captain-marvel/1260018311"
+  }
+]

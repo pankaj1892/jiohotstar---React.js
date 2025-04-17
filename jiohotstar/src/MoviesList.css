@@ -1,0 +1,112 @@
+
+.MovlistesList {
+  margin-left: 40px;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  /* background-image: url("Components/Images/background/AvengersInfinityWar.webp"); */
+
+  font-family: sans-serif;
+}
+
+.movie-section {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 800px;
+  background-image: url("Components/Images/background/AvengersInfinityWar.webp");
+
+  background-repeat: no-repeat;
+}
+.movie-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(20, 20, 20, 0.9), rgba(0, 0, 0, 0.3));
+}
+
+.overlay {
+  background: linear-gradient(to right, #000 40%, transparent 100%);
+  height: 100%;
+  width: 100%;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+margin-top: 340px;
+  transform: translateY(-50%);
+  z-index: 2;
+  max-width: 500px;
+  background-color: transparent;
+}
+
+.logoA {
+  margin-top: 400px;
+  width: 240px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.details {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.desc {
+  max-width: 500px;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.tags {
+  color: #bbb;
+  margin-bottom: 20px;
+}
+
+.audio-btn {
+  background: #2e2e2e;
+  color: white;
+  padding: 6px 12px;
+  margin-right: 8px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.subscribe {
+  background: #1f80e0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.plus {
+  background: #2e2e2e;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
