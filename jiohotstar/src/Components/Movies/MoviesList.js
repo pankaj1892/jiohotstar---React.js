@@ -100,14 +100,14 @@ const movlistesList = () => {
           <div className="footer-div4">
             <h4>Connect with Us</h4>
             <div className="footer-logo1">
-              <a href="https://www.facebook.com/JioHotstar#" target="blank">
+              <Link to="https://www.facebook.com/JioHotstar#" target="blank">
                 <i className="fa-brands fa-square-facebook"></i>
-              </a>
+              </Link>
             </div>
             <div className="footer-logo2">
-              <a href="https://x.com/DisneyPlusHS" target="blank">
+              <Link to="https://x.com/DisneyPlusHS" target="blank">
                 <i className="fa-brands fa-x-twitter"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </footer>

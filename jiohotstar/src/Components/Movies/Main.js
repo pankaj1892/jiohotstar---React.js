@@ -2,8 +2,25 @@ import React from "react";
 import cardsData from "./Movies.json";
 import ghecard from "./GHE.json"
 import searchcard from "./Search.json"
+import axios from "axios";
+import { Link } from "react-router-dom";
 
 function Main() {
+  // fetch('https://jsonplaceholder.typicode.com/posts')
+  // .then(manoj => manoj.json())
+  // .then(manoj => console.log(manoj))
+  // .catch(error => console.error('Error fetching data:', error));
+
+
+  axios.get('https://jsonplaceholder.typicode.com/posts')
+  .then(response => {
+    console.log(response.data);
+  })
+  .catch(error => {
+    console.error('Error fetching data:', error);
+  });
+
+
   return (
     <div className="main">
       <div className="hero-section">
@@ -34,9 +51,9 @@ function Main() {
           if (card.link) {
             return (
               <div className="card" key={card.id}>
-                <a href={card.link}>
+                <Link to={card.link}>
                   <img src={card.image} alt={`Card ${card.id}`} />
-                </a>
+                </Link>
               </div>
             );
           } else {
@@ -64,9 +81,9 @@ function Main() {
           if (card.link) {
             return (
               <div className="card" key={card.id}>
-                <a href={card.link}>
+                <Link to={card.link}>
                   <img src={card.image} alt={`Card ${card.id}`} />
-                </a>
+                </Link>
               </div>
             );
           } else {
@@ -95,9 +112,9 @@ function Main() {
           if (card.link) {
             return (
               <div className="card" key={card.id}>
-                <a href={card.link}>
+                <Link to={card.link}>
                   <img src={card.image} alt={`Card ${card.id}`} />
-                </a>
+                </Link>
               </div>
             );
           } else {
@@ -128,14 +145,14 @@ function Main() {
           <div class="footer-div4">
             <h4>Connect with Us</h4>
             <div class="footer-logo1">
-              <a href="https://www.facebook.com/JioHotstar#" target="">
+              <Link to="https://www.facebook.com/JioHotstar#">
                 <i class="fa-brands fa-square-facebook"></i>
-              </a>
+              </Link>
             </div>
             <div class="footer-logo2">
-              <a href="https://x.com/DisneyPlusHS" target="">
+              <Link to="https://x.com/DisneyPlusHS" >
                 <i class="fa-brands fa-x-twitter"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </footer>

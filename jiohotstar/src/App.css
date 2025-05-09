@@ -98,6 +98,7 @@ body {
   width: 205px;
   margin: 10px;
   border-radius: 2%;
+  object-fit: cover;
 }
 .card :hover {
   transform: scale(1.8, 1.4);

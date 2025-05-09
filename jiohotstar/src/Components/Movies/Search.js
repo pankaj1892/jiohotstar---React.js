@@ -47,9 +47,9 @@ function Search(){
           if (card.link) {
             return (
               <div className="card" key={card.id}>
-                <a href={card.link}>
+                <Link to={card.link}>
                   <img src={card.image} alt={`Card ${card.id}`} />
-                </a>
+                </Link>
               </div>
             );
           } else {
@@ -66,9 +66,9 @@ function Search(){
           if (card.link) {
             return (
               <div className="card" key={card.id}>
-                <a href={card.link}>
+                <Link to={card.link}>
                   <img src={card.image} alt={`Card ${card.id}`} />
-                </a>
+                </Link>
               </div>
             );
           } else {
@@ -99,14 +99,14 @@ function Search(){
           <div class="footer-div4">
             <h4>Connect with Us</h4>
             <div class="footer-logo1">
-              <a href="https://www.facebook.com/JioHotstar#" target="">
+              <Link to="https://www.facebook.com/JioHotstar#">
                 <i class="fa-brands fa-square-facebook"></i>
-              </a>
+              </Link>
             </div>
             <div class="footer-logo2">
-              <a href="https://x.com/DisneyPlusHS" target="">
+              <Link to="https://x.com/DisneyPlusHS">
                 <i class="fa-brands fa-x-twitter"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </footer>

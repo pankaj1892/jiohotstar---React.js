@@ -1,6 +1,7 @@
 import React from 'react'
 import ghecard from "./GHE.json";
 import movcard from "./Search.json";
+import { Link } from 'react-router-dom';
 
 const Sports = () => {
   return (
@@ -32,9 +33,9 @@ const Sports = () => {
         {movcard.map((card) => (
           <div className="card" key={card.id}>
             {card.link ? (
-              <a href={card.link}>
+              <Link to={card.link}>
                 <img src={card.image} alt={`Card ${card.id}`} />
-              </a>
+              </Link>
             ) : (
               <img src={card.image} alt={`Card ${card.id}`} />
             )}
@@ -56,9 +57,9 @@ const Sports = () => {
         {ghecard.map((card) => (
           <div className="card" key={card.id}>
             {card.link ? (
-              <a href={card.link}>
+              <Link to={card.link}>
                 <img src={card.image} alt={`Card ${card.id}`} />
-              </a>
+              </Link>
             ) : (
               <img src={card.image} alt={`Card ${card.id}`} />
             )}
@@ -85,14 +86,14 @@ const Sports = () => {
         <div className="footer-div4">
           <h4>Connect with Us</h4>
           <div className="footer-logo1">
-            <a href="https://www.facebook.com/JioHotstar#" target="blank">
+            <Link to="https://www.facebook.com/JioHotstar#" target="blank">
               <i className="fa-brands fa-square-facebook"></i>
-            </a>
+            </Link>
           </div>
           <div className="footer-logo2">
-            <a href="https://x.com/DisneyPlusHS" target="blank">
+            <Link to="https://x.com/DisneyPlusHS" target="blank">
               <i className="fa-brands fa-x-twitter"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </footer>
