@@ -7,16 +7,16 @@ function Search(){
     return(
         <div className="Search"> 
 
-<div class="nav">
+<div className="nav">
         <nav>
-          <div class="search-box">
-            <i class="fas fa-search"></i>
+          <div className="search-box">
+            <i className="fas fa-search"></i>
             <input type="text" placeholder="Movies, shows and more" />
           </div>
         </nav>
       </div>
-      <div class="title-card">
-        <div class="title-left">
+      <div className="title-card">
+        <div className="title-left">
          
           <h2>Trending in India</h2>
     
@@ -81,46 +81,46 @@ function Search(){
         })}
       </div>
       
-      <footer class="footer-info">
-          <div class="footer-div1">
+      <footer className="footer-info">
+          <div className="footer-div1">
             <h4>Company</h4>
             <h6>About Us</h6>
             <h6>Careers</h6>
           </div>
-          <div class="footer-div2">
+          <div className="footer-div2">
             <h4>View Website in</h4>
             <h6>✓ English</h6>
           </div>
-          <div class="footer-div3">
+          <div className="footer-div3">
             <h4>Need Help?</h4>
             <h6>Visit Help Center</h6>
             <h6>Shaer Feedback</h6>
           </div>
-          <div class="footer-div4">
+          <div className="footer-div4">
             <h4>Connect with Us</h4>
-            <div class="footer-logo1">
+            <div className="footer-logo1">
               <Link to="https://www.facebook.com/JioHotstar#">
-                <i class="fa-brands fa-square-facebook"></i>
+                <i className="fa-brands fa-square-facebook"></i>
               </Link>
             </div>
-            <div class="footer-logo2">
+            <div className="footer-logo2">
               <Link to="https://x.com/DisneyPlusHS">
-                <i class="fa-brands fa-x-twitter"></i>
+                <i className="fa-brands fa-x-twitter"></i>
               </Link>
             </div>
           </div>
         </footer>
-        <footer class="footer-info1">
+        <footer className="footer-info1">
           <div>
-            <div class="Policy">
+            <div className="Policy">
               <h6>© 2025 STAR. All Rights Reserved.</h6>
 
               <h6>Terms Of Use Privacy Policy FAQ</h6>
             </div>
-            <div class="footer-logo3">
+            <div className="footer-logo3">
               <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_256/v1661346101/google-playstore" alt="" />
             </div>
-            <div class="footer-logo4">
+            <div className="footer-logo4">
               <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_256/v1661346071/ios-appstore" alt="" />
             </div>
           </div>

@@ -127,38 +127,38 @@ function Main() {
         })}
       </div>
 
-      <footer class="footer-info">
-          <div class="footer-div1">
+      <footer className="footer-info">
+          <div className="footer-div1">
             <h4>Company</h4>
             <h6>About Us</h6>
             <h6>Careers</h6>
           </div>
-          <div class="footer-div2">
+          <div className="footer-div2">
             <h4>View Website in</h4>
             <h6>✓ English</h6>
           </div>
-          <div class="footer-div3">
+          <div className="footer-div3">
             <h4>Need Help?</h4>
             <h6>Visit Help Center</h6>
             <h6>Shaer Feedback</h6>
           </div>
-          <div class="footer-div4">
+          <div className="footer-div4">
             <h4>Connect with Us</h4>
-            <div class="footer-logo1">
+            <div className="footer-logo1">
               <Link to="https://www.facebook.com/JioHotstar#">
-                <i class="fa-brands fa-square-facebook"></i>
+                <i className="fa-brands fa-square-facebook"></i>
               </Link>
             </div>
-            <div class="footer-logo2">
+            <div className="footer-logo2">
               <Link to="https://x.com/DisneyPlusHS" >
-                <i class="fa-brands fa-x-twitter"></i>
+                <i className="fa-brands fa-x-twitter"></i>
               </Link>
             </div>
           </div>
         </footer>
-        <footer class="footer-info1">
+        <footer className="footer-info1">
           <div>
-            <div class="Policy">
+            <div className="Policy">
               <h6>© 2025 STAR. All Rights Reserved.</h6>
 
               <h6>Terms Of Use Privacy Policy FAQ</h6>
